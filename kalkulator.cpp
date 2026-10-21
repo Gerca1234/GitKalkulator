@@ -53,3 +53,4 @@ int main(){
     cout << a << ' ' << operacija << ' ' << b << " = " << rez << endl; 
     return 0;
 }
+//Pregled kode: preveri pravilnost operacij
