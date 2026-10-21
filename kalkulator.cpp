@@ -12,12 +12,15 @@ double mnozi(double a, double b) {
 double deli(double a, double b) {
     return a / b;
 }
+double ostanek(double a,double b){
+    return a % b;
+}
 void meni(){
     cout << "------------Kalkulator 3.0 v C#------------" << endl;
     cout << "---------------------------------------" << endl;
     cout << "----------Navodila za uporabo:---------" << endl;
     cout << "-----1. vpiši število prvo število-----" << endl;
-    cout << "-------2. vpiši operator(+,-.*/)-------" << endl;
+    cout << "-------2. vpiši operator(+,-,*,/,%)-------" << endl;
     cout << "--------3. vpiši tretjo število--------" << endl;
     cout << "---------------------------------------" << endl;
     cout << endl;
@@ -37,13 +40,15 @@ int main(){
     switch (operacija)
     {
         case '+':
-            rez = a + b;
+            rez = sestej(a,b);
         case '-':
-            rez = a - b;
+            rez = odstej(a,b);
         case '*':
-            rez = a * b;
+            rez = mnozi(a,b);
         case '/':
-            rez = a / b;
+            rez = deli(a,b);
+        case '%':
+            rez = ostanek(a,b);
     }
     cout << a << ' ' << operacija << ' ' << b << " = " << rez << endl; 
     return 0;
