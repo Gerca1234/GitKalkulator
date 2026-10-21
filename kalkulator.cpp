@@ -13,7 +13,7 @@ double deli(double a, double b) {
     return a / b;
 }
 void meni(){
-    cout << "------------Kalkulator 2.0 v C#------------" << endl;
+    cout << "------------Kalkulator 2.5 v C#------------" << endl;
     cout << "---------------------------------------" << endl;
     cout << "----------Navodila za uporabo:---------" << endl;
     cout << "-----1. vpiši število prvo število-----" << endl;
