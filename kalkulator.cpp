@@ -41,14 +41,23 @@ int main(){
     {
         case '+':
             rez = sestej(a,b);
+            break;
         case '-':
             rez = odstej(a,b);
+            break;
         case '*':
             rez = mnozi(a,b);
+            break;
         case '/':
+            if (b == 0) {
+                cout << "Napaka: deljenje z nic ni dovoljeno!" << endl;
+                return 1;
+            }
             rez = deli(a,b);
+            break;
         case '%':
             rez = ostanek(a,b);
+            break;
     }
     cout << a << ' ' << operacija << ' ' << b << " = " << rez << endl; 
     return 0;
