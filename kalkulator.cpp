@@ -53,3 +53,4 @@ int main(){
     cout << a << ' ' << operacija << ' ' << b << " = " << rez << endl; 
     return 0;
 }
+// Sprememba na glavni veji za primerjavo z rebase.
