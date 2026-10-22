@@ -13,7 +13,7 @@ double deli(double a, double b) {
     return a / b;
 }
 double ostanek(double a,double b){
-    return a % b;
+    return int(a) % int(b);
 }
 void meni(){
     cout << "------------Kalkulator 3.0 v C#------------" << endl;

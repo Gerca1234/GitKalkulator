@@ -1,0 +1,4 @@
+.vscode/
+kalkulator
+*.dSYM/
+.DS_Store
