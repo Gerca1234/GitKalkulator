@@ -16,7 +16,7 @@ double ostanek(double a,double b){
     return int(a) % int(b);
 }
 void meni(){
-    cout << "------------Kalkulator 3.0 v C#------------" << endl;
+    cout << "------------Kalkulator Kalkkulator Trunk Based------------" << endl;
     cout << "---------------------------------------" << endl;
     cout << "----------Navodila za uporabo:---------" << endl;
     cout << "-----1. vpiši število prvo število-----" << endl;
