@@ -2,3 +2,7 @@
 kalkulator
 *.dSYM/
 .DS_Store
+# Obcutljivi podatki
+.env
+.env.*
+!.env.example
