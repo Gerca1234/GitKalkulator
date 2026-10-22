@@ -6,3 +6,16 @@ kalkulator
 .env
 .env.*
 !.env.example
+# Prevedene C++ datoteke
+*.o
+*.out
+*.exe
+# Mape za gradnjo
+build/
+cmake-build-*/
+# Zacasne datoteke
+*.log
+*.tmp
+*~
+# Lokalne nastavitve urejevalnika
+.vscode/
